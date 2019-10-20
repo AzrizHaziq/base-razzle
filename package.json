@@ -12,7 +12,7 @@
     "test": "razzle test --env=jsdom",
     "start:prod": "NODE_ENV=production node build/server.js",
     "precommit": "lint-staged",
-    "analyze": "BUNDLE_ANALYZE=true razzle build"
+    "analyze": "BUNDLE_ANALYZE=true npm run build"
   },
   "dependencies": {
     "express": "^4.17.1",
