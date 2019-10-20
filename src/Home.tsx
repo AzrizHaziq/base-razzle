@@ -1,30 +1,19 @@
 import React from 'react';
-import logo from './react.svg';
-import './Home.css';
 
 class Home extends React.Component {
   public render() {
     return (
       <div className="Home">
-        <div className="Home-header">
-          <img src={ logo } className="Home-logo" alt="logo"/>
-          <h2>Welcome to Razzle</h2>
+        <h1>asdasdasdasdasd</h1>
+        <div className="max-w-sm mx-auto flex p-6 bg-white rounded-lg shadow-xl">
+          <div className="flex-shrink-0">
+            <img className="h-12 w-12" src="https://source.unsplash.com/random" alt="ChitChat Logo"/>
+          </div>
+          <div className="ml-6 pt-1">
+            <h4 className="text-xl text-gray-900 leading-tight">ChitChat</h4>
+            <p className="text-base text-gray-600 leading-normal">You have a new message!</p>
+          </div>
         </div>
-        <p className="Home-intro">
-          To get started, edit <code>src/App.js</code> or
-          <code>src/Home.js</code> and save to reload.
-        </p>
-        <ul className="Home-resources">
-          <li>
-            <a href="https://github.com/jaredpalmer/razzle">Docs</a>
-          </li>
-          <li>
-            <a href="https://github.com/jaredpalmer/razzle/issues">Issues</a>
-          </li>
-          <li>
-            <a href="https://palmer.chat">Community Slack</a>
-          </li>
-        </ul>
       </div>
     );
   }

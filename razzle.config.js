@@ -1,7 +1,3 @@
-
 module.exports = {
-  plugins: [
-    'scss',
-    'typescript'
-  ],
+  plugins: ['scss', 'typescript', 'bundle-analyzer'],
 };
