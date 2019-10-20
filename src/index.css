@@ -11364,7 +11364,8 @@ video {
 h1 {
   font-size: 1.25rem;
   color: #3182ce;
-  text-decoration: underline;
+  color: red;
+  border: 10px solid blue;
 }
 
 h2 {
