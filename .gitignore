@@ -12,3 +12,6 @@ build
 .env.production.local
 
 .idea
+
+# temp gitignore src/index.css
+src/index.css
